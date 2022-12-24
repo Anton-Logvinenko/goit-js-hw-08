@@ -21,8 +21,8 @@ const markup = galleryItems
 </div>`
   )
   .join('');
-const galleryEl = document.querySelector('.gallery');
-galleryEl.innerHTML = markup;
+
+gallery.innerHTML = markup;
 
 gallery.addEventListener('click', onGalleryClick);
 
